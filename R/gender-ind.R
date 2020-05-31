@@ -6,7 +6,7 @@
 # @param name A character string of a first name.
 # @return A list or (for multiple names) a list of lists containing the name
 #   property and the predicted gender property.
-gender_kantrowitz <- function(names) {
+gender_ind <- function(names) {
 
   # An internal function to predict the gender of one name
   apply_ind <- function(n) {
